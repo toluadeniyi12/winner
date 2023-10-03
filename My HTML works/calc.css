@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+
+.Calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    padding: 20px;
+    background-color:black;
+    box-shadow: 0.2px 5px  rgb(34, 31, 31);
+    border-radius: 50px;
+}
+.screen{
+    grid-column: span 4;
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+}
+.btn{
+    padding: 25px;
+    font-size: 18px;
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+    cursor: pointer;
+}
